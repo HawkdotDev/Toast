@@ -109,23 +109,23 @@ export const footerLinks = [
     links: [
       {
         name: "Content",
-        link: "https://www.Broccoli.com/content/",
+        link: "https://www.toast.com/content/",
       },
       {
         name: "How it Works",
-        link: "https://www.Broccoli.com/how-it-works/",
+        link: "https://www.toast.com/how-it-works/",
       },
       {
         name: "Create",
-        link: "https://www.Broccoli.com/create/",
+        link: "https://www.toast.com/create/",
       },
       {
         name: "Explore",
-        link: "https://www.Broccoli.com/explore/",
+        link: "https://www.toast.com/explore/",
       },
       {
         name: "Terms & Services",
-        link: "https://www.Broccoli.com/terms-and-services/",
+        link: "https://www.toast.com/terms-and-services/",
       },
     ],
   },
@@ -134,23 +134,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.Broccoli.com/help-center/",
+        link: "https://www.toast.com/help-center/",
       },
       {
         name: "Partners",
-        link: "https://www.Broccoli.com/partners/",
+        link: "https://www.toast.com/partners/",
       },
       {
         name: "Suggestions",
-        link: "https://www.Broccoli.com/suggestions/",
+        link: "https://www.toast.com/suggestions/",
       },
       {
         name: "Blog",
-        link: "https://www.Broccoli.com/blog/",
+        link: "https://www.toast.com/blog/",
       },
       {
         name: "Newsletters",
-        link: "https://www.Broccoli.com/newsletters/",
+        link: "https://www.toast.com/newsletters/",
       },
     ],
   },
@@ -159,11 +159,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.Broccoli.com/our-partner/",
+        link: "https://www.toast.com/our-partner/",
       },
       {
         name: "Become a Partner",
-        link: "https://www.Broccoli.com/become-a-partner/",
+        link: "https://www.toast.com/become-a-partner/",
       },
     ],
   },
