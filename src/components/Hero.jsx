@@ -1,23 +1,19 @@
-import styles from "../style";
 import { discount, robot } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => {
   return (
-    <section
-      id="home"
-      className={`flex md:flex-row flex-col relative`}
-    >
-      <div className="absolute w-full h-screen bg-slate-300">
-
-      </div>
+    <section id="home" className={`flex md:flex-row flex-col relative`}>
+      <div className="absolute w-full h-screen bg-slate-300"></div>
       <div className="z-[69]">
         <div
           className={`flex justify-center items-start flex-col xl:px-0 sm:px-16 px-6`}
         >
           <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
             <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
-            <p className={`${styles.paragraph} ml-2`}>
+            <p
+              className={` font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]} ml-2`}
+            >
               <span className="text-white">20%</span> Discount For{" "}
               <span className="text-white">1 Month</span> Account
             </p>
@@ -36,7 +32,9 @@ const Hero = () => {
           <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
             Payment Method.
           </h1>
-          <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+          <p
+            className={` font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]} max-w-[470px] mt-5`}
+          >
             Our team of experts uses a methodology to identify the credit cards
             most likely to fit your needs. We examine annual percentage rates,
             annual fees.
@@ -44,7 +42,7 @@ const Hero = () => {
         </div>
 
         <div
-          className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
+          className={`flex-1 flex justify-center items-center md:my-0 my-10 relative`}
         >
           <img
             src={robot}
@@ -59,7 +57,7 @@ const Hero = () => {
           {/* gradient end */}
         </div>
 
-        <div className={`ss:hidden ${styles.flexCenter}`}>
+        <div className={`ss:hidden flex justify-center items-center`}>
           <GetStarted />
         </div>
       </div>
