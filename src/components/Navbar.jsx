@@ -36,14 +36,14 @@ const Navbar = () => {
         <div
           className={`${
             !toggle ? "hidden" : "flex"
-          } p-6 bg-black-gradient absolute top-16 right-0 mx-4 min-w-[70%] rounded-md sidebar bg-slate-300 mt-2`}
+          } p-6 bg-black-gradient absolute top-16 right-0 mx-4 min-w-[70%] rounded-md sidebar bg-blue-300/95 mt-1`}
         >
           <ul className="list-none flex justify-end items-start flex-1 flex-col">
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
                 className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                  active === nav.title ? "text-black" : "text-stone-500"
+                  active === nav.title ? "text-black" : "text-stone-800"
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                 onClick={() => setActive(nav.title)}
               >

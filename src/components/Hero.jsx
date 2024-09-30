@@ -1,13 +1,25 @@
 import { discount, robot } from "../assets";
 import GetStarted from "./GetStarted";
+import solarVideo from "/src/assets/videos/solar.webm";
 
 const Hero = () => {
   return (
     <section id="home" className={`flex md:flex-row flex-col relative`}>
-      <div className="absolute w-full h-screen bg-slate-300"></div>
+      <div className="absolute w-full h-screen">
+        <video
+          className="w-full h-full object-cover"
+          autoPlay
+          loop
+          muted
+          playsInline
+        >
+          <source src={solarVideo} type="video/webm" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
       <div className="z-[69]">
         <div
-          className={`flex justify-center items-start flex-col xl:px-0 sm:px-16 px-6`}
+          className={`flex mt-16 justify-center items-start flex-col xl:px-0 sm:px-16 px-6`}
         >
           <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
             <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
