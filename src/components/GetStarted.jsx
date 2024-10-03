@@ -7,7 +7,7 @@ const GetStarted = () => (
     <div
       className={`flex justify-center items-center flex-col bg-[#141414] w-[100%] h-[100%] rounded-full`}
     >
-      <div className={`flex justify-center items-start flex-row`}>
+      <div className={`flex justify-center items-start flex-row text-yellow-300 gap-2`}>
         <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
           <span className="text-gradient">Get</span>
         </p>
@@ -19,7 +19,7 @@ const GetStarted = () => (
       </div>
 
       <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
-        <span className="text-gradient">Started</span>
+        <span className="text-gradient text-yellow-400">Started</span>
       </p>
     </div>
   </div>

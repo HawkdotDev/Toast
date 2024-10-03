@@ -21,15 +21,15 @@ const App = () => (
     </div>
 
     <div
-      className={`bg-[#141414]  sm:px-16 px-6} flex justify-center items-center`}
+      className={`bg-[#141414] px-6} flex justify-center items-center`}
     >
       <div className={` xl:max-w-[1280px] w-full mx-auto}`}>
         <Stats />
         <Business />
-        <Billing />
-        <CardDeal />
+        {/* <Billing />
+        <CardDeal /> */}
         <Testimonials />
-        <Clients />
+        {/* <Clients /> */}
         <CTA />
         <Footer />
       </div>

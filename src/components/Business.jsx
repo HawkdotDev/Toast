@@ -19,16 +19,13 @@ const FeatureCard = ({ icon, title, content, index }) => (
 );
 
 const Business = () =>  (
-  <section id="features" className={layout.section}>
+  <section id="features" className={`${layout.section} px-16 pt-14`}>
     <div className={layout.sectionInfo}>
       <h2 className={`styles.font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full`}>
-        You do the business, <br className="sm:block hidden" /> we’ll handle
-        the money.
+        Lorem, ipsum dolor <br className="sm:block hidden" /> amet consectetur adipisicing
       </h2>
-      <p className={` font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial life by
-        building credit, earning rewards and saving money. But with hundreds
-        of credit cards on the market.
+      <p className={` font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]} max-w-[600px] mt-5`}>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus inventore sapiente sed cupiditate placeat aperiam et, labore distinctio deleniti id. Alias ab modi magnam recusandae labore? Laborum inventore nesciunt dolorem?
       </p>
 
       <Button styles={`mt-10`} />

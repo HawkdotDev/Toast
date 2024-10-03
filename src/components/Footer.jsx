@@ -1,23 +1,23 @@
-import { logo } from "../assets";
+import textLogo from "../assets/Company/textLogo.png";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => (
   <section
-    className={`flex justify-center items-center sm:py-16 py-6 flex-col`}
+    className={`flex justify-center items-center sm:py-16 py-6 flex-col px-16`}
   >
     <div
       className={`flex justify-center items-start md:flex-row flex-col mb-8 w-full`}
     >
-      <div className="flex-[1] flex flex-col justify-start mr-10">
+      <div className="flex-[1] flex flex-col justify-start items-start mr-10">
         <img
-          src={logo}
+          src={textLogo}
           alt="toast"
           className="w-[266px] h-[72.14px] object-contain"
         />
         <p
           className={` font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]} mt-4 max-w-[312px]`}
         >
-          A new way to make the payments easy, reliable and secure.
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste.
         </p>
       </div>
 
